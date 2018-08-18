@@ -69,3 +69,26 @@
     background: none repeat #6f42c1;
     opacity: 0.6;
 }
+.separator {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.separator::before, .separator::after {
+    content: '';
+    position: absolute;
+}
+.separator::before {
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #6f42c1;
+    transform-origin: 100% 100%;
+    transform: rotate(-1deg);
+}
+.fa-quote-right {
+    color: #ffc107;
+    font-size: 2rem;
+}
