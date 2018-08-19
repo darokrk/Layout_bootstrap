@@ -101,3 +101,15 @@
     -webkit-box-shadow: 0 20px 35px 0 rgba(111, 63, 193, 0.5);
     transition: 0.1s;
 }
+.my-team-text::after {
+    content: '';
+    display: block;
+    border: 1px solid #ffc107;
+    width: 200px;
+    margin: 30px auto;
+}
+.my-team-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
