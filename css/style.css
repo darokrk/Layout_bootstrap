@@ -69,6 +69,11 @@
     background: none repeat #6f42c1;
     opacity: 0.6;
 }
+.my-portfolio-img-group:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .separator {
     position: relative;
     overflow: hidden;
