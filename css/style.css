@@ -92,3 +92,12 @@
     color: #ffc107;
     font-size: 2rem;
 }
+.my-card-main {
+    border: 1px solid #6f42c1;
+}
+.my-card-main:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 35px 0 rgba(111, 63, 193, 0.5);
+    -webkit-box-shadow: 0 20px 35px 0 rgba(111, 63, 193, 0.5);
+    transition: 0.1s;
+}
